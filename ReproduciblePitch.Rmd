@@ -2,17 +2,14 @@
 title: "Reproducible Pitch Assignment"
 date: "`r Sys.Date()`"
 runtime: shiny
-output: slidy_presentation
+output: ioslides_presentation
 
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-------------------------------------------------------------------------
-
-# Overview
+## Overview of the Assignment
 
 This peer assessed assignment has two parts:
 
@@ -20,9 +17,16 @@ This peer assessed assignment has two parts:
 
 -   Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
 
-------------------------------------------------------------------------
+## Old Faithful Geyser Data and Format
 
-# How to use the application
+This project utilizes the faithful data set within R Studio which represents the waiting time between eruptions and the duration of the eruption for the Old Faithful geyser in Yellowstone National Park, Wyoming, USA.
+
+A data frame with 272 observations on 2 variables.
+
+- [,1]	eruptions	numeric	Eruption time in mins
+- [,2]	waiting	numeric	Waiting time to next eruption (in mins)
+
+## How to use the application
 
 This application is using data related to geysers comparing the frequency and the waiting time (in mins) in between eruptions.
 
@@ -32,25 +36,15 @@ The slider needs to be used to select the number of bins that you would like to 
 
 - The ui.R and Server.R code created will be placed into my GitHub Repository: https://github.com/maria-mezquita/ShinyApp-and-Reproducible-Pitch.git
 
+## How many bins would you like to display?
 
-------------------------------------------------------------------------
-
-# How many bins would you like to display?
-
-Use the slider on the next slide to select the amount of bins that you would like the plot coming in the upcoming slides to showcase the data. 
-
+Use the slider on the next slide to select the amount of bins that you would like the plot coming in the upcoming slides to showcase the data.  
 
 Please note, minimum is 1, maximum number of bins available for selection is 50.
-------------------------------------------------------------------------
-# Shiny Application
+
+## Shiny Application
 
 Please see below actual shiny app embedded into presentation:
-</br></br>
-
 
 <iframe width = "600" height = "500" src="http://mariamezquita.shinyapps.io/Module5"></iframe>
-
-------------------------------------------------------------------------
-
-<STRONG>THANK YOU!</STRONG>
 
