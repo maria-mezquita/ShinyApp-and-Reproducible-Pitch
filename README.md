@@ -1,4 +1,4 @@
-# ShinyApp-and-Reproducible-
+# Shiny Application and Reproducible Research
 This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
 
 Your Shiny Application
@@ -24,6 +24,7 @@ Rstudio presenter has a button to publish directly to Rpubs https://support.rstu
 You can also publish using both formats to github manually using gh-pages, though your github branch must have a .nojekyll fle and be on a branch names gh-pages. There's more on gh-pages here https://pages.github.com/ and there is a video lecture outlining how to do this.
 
 Review criteria
+
 Your Shiny Application
 Was there enough documentation on the shiny site for a user to get started using the application? Did the application run as described in the documentation? Was there some form of widget input (slider, textbox, radio buttons, checkbox, ...) in either ui.R or a custom web page? Did server.R perform some calculations on the input in server.R? Was the server calculation displayed in the html page? Was the app substantively different than the very simple applications built in the class? Note, it's OK if the app is simple and based on the one presented in class. I just don't want it to be basically a carbon copy of the examples we covered. For example, if someone simply changed the variable names, then this would not count. However, a prediction algorithm that had a similar layout would be fine. Here's your opportunity to give the app +1 for being well done, or neat, or even just a solid effort.
 
